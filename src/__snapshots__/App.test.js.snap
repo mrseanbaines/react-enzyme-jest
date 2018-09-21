@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> mount rendering matches the snapshot 1`] = `
+<App>
+  <div
+    className="App"
+  >
+    <header
+      className="App-header"
+    >
+      <img
+        alt="logo"
+        className="App-logo"
+        src="logo.svg"
+      />
+      <h1
+        className="App-title"
+      >
+        Welcome to React
+      </h1>
+      <h3
+        className="blue"
+      >
+        Everyone is Welcome!
+      </h3>
+    </header>
+    <Form>
+      <form
+        data-testid="addUserForm"
+        onSubmit={[Function]}
+      >
+        <h2>
+          Request Information
+        </h2>
+        <input
+          data-testid="name"
+          onChange={[Function]}
+          placeholder="Name"
+          type="text"
+          value=""
+        />
+        <input
+          data-testid="email"
+          onChange={[Function]}
+          placeholder="Email"
+          type="text"
+          value=""
+        />
+        <input
+          data-testid="number"
+          onChange={[Function]}
+          placeholder="Number"
+          type="text"
+          value=""
+        />
+        <div>
+          <input
+            checked={true}
+            data-testid="checked"
+            onChange={[Function]}
+            onClick={[Function]}
+            type="checkbox"
+          />
+          <p
+            className="promotions"
+            data-testid="promotionsP"
+          >
+            Receive Promotions
+          </p>
+        </div>
+        <button
+          data-testid="submitButton"
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </Form>
+    <p
+      className="App-intro"
+    >
+      Hello World
+    </p>
+    <p
+      className="button-state"
+    >
+      No!
+    </p>
+    <button
+      onClick={[Function]}
+    >
+      Click
+    </button>
+    <h2 />
+    <input
+      onChange={[Function]}
+      type="text"
+    />
+    <p
+      className="lifeCycle"
+    >
+      componentDidMount
+    </p>
+    *
+  </div>
+</App>
+`;
+
+exports[`<App /> shallow rendering matches the snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h1
+      className="App-title"
+    >
+      Welcome to React
+    </h1>
+    <h3
+      className="blue"
+    >
+      Everyone is Welcome!
+    </h3>
+  </header>
+  <Form />
+  <p
+    className="App-intro"
+  >
+    Hello World
+  </p>
+  <p
+    className="button-state"
+  >
+    No!
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Click
+  </button>
+  <h2 />
+  <input
+    onChange={[Function]}
+    type="text"
+  />
+  <p
+    className="lifeCycle"
+  >
+    componentDidMount
+  </p>
+  *
+</div>
+`;
